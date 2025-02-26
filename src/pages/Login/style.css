@@ -1,0 +1,85 @@
+:root {
+  --offwhite: #ecebe9;
+  --darkPurple: #762c61;
+  --whiteApp: #fffaf8;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.logotipo {
+  width: 113px;
+  height: 104px;
+}
+
+.logotipo img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+h1 {
+  color: var(--darkPurple);
+  font-size: 24px;
+}
+
+form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 100px 30px 30px 30px;
+  border-radius: 16px;
+  background-color: var(--whiteApp);
+  max-width: 50%;
+  width: 360px;
+  height: 640px;
+  margin-bottom: 20px;
+
+  & button {
+    border-radius: 8px;
+    background-color: var(--darkPurple);
+    color: var(--offwhite);
+    width: 150px;
+    height: 43px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  & button:hover {
+    opacity: 0.9;
+  }
+
+  & input {
+    border: 1px solid #dddddd;
+    border-radius: 56px;
+    height: 48px;
+    width: 280px;
+    background-color: transparent;
+    color: var(--darkPurple);
+    font-size: 12px;
+    padding-left: 10px;
+    outline: none;
+  }
+
+  .iconUser {
+    position: absolute;
+    left: 585px;
+    top: 43.5%;
+    transform: translateY(-50%);
+    font-size: 18px;
+  }
+
+  .iconPassword {
+    position: absolute;
+    left: 585px;
+    top: 51%;
+    transform: translateY(-50%);
+    font-size: 20px;
+  }
+}
