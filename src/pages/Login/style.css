@@ -4,82 +4,92 @@
   --whiteApp: #fffaf8;
 }
 
-.container {
+.container form {
   display: flex;
-  align-items: center;
   flex-direction: column;
-  padding-top: 100px;
+  align-items: center;
+  padding: 100px 30px 30px 30px;
+  border-radius: 16px;
+  background-color: var(--whiteApp);
+  width: 360px;
+  height: 640px;
 }
 
 .logotipo {
   width: 113px;
   height: 104px;
+  align-items: center;
 }
 
 .logotipo img {
   max-width: 100%;
   height: auto;
   object-fit: contain;
+  align-items: center;
 }
 
-h1 {
+.container h1 {
   color: var(--darkPurple);
   font-size: 24px;
+  font-weight: 600;
+  text-align: center;
 }
 
-form {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 100px 30px 30px 30px;
-  border-radius: 16px;
-  background-color: var(--whiteApp);
-  max-width: 50%;
-  width: 360px;
-  height: 640px;
-  margin-bottom: 20px;
+.container .input-field {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  margin: 20px auto;
+}
 
-  & button {
-    border-radius: 8px;
-    background-color: var(--darkPurple);
-    color: var(--offwhite);
-    width: 150px;
-    height: 43px;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-  }
+.input-field input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: 1px solid #dddddd;
+  outline: none;
+  border-radius: 56px;
+  font-size: 12px;
+  padding: 20px 20px;
+}
 
-  & button:hover {
-    opacity: 0.9;
-  }
+.input-field input::placeholder {
+  color: var(--darkPurple);
+}
 
-  & input {
-    border: 1px solid #dddddd;
-    border-radius: 56px;
-    height: 48px;
-    width: 280px;
-    background-color: transparent;
-    color: var(--darkPurple);
-    font-size: 12px;
-    padding-left: 10px;
-    outline: none;
-  }
+.input-field .icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(10%);
+}
 
-  .iconUser {
-    position: absolute;
-    left: 585px;
-    top: 43.5%;
-    transform: translateY(-50%);
-    font-size: 18px;
-  }
+.container .button {
+  border-radius: 8px;
+  background-color: var(--darkPurple);
+  color: var(--offwhite);
+  width: 150px;
+  height: 43px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
 
-  .iconPassword {
-    position: absolute;
-    left: 585px;
-    top: 51%;
-    transform: translateY(-50%);
-    font-size: 20px;
-  }
+.button:hover {
+  opacity: 0.9;
+}
+
+.container .signup-link {
+  text-align: center;
+  margin: 20px;
+  font-weight: 600;
+}
+
+.container .signup-link a {
+  text-decoration: none;
+}
+
+.container .signup-link a:hover {
+  text-decoration: underline;
 }

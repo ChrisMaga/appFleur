@@ -1,0 +1,48 @@
+:root {
+  --offwhite: #ecebe9;
+  --darkPurple: #762c61;
+  --whiteApp: #fffaf8;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.logotipo {
+  width: 113px;
+  height: 104px;
+}
+
+.logotipo img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+h1 {
+  color: var(--darkPurple);
+  font-size: 24px;
+  font-weight: 100;
+}
+
+h2 {
+  color: var(--darkPurple);
+}
+
+.button {
+  border-radius: 8px;
+  background-color: var(--darkPurple);
+  color: var(--offwhite);
+  width: 150px;
+  height: 43px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
