@@ -11,8 +11,8 @@
   padding: 100px 30px 30px 30px;
   border-radius: 16px;
   background-color: var(--whiteApp);
-  width: 360px;
-  height: 640px;
+  width: 100vw;
+  height: 90vh;
 }
 
 .logotipo {
@@ -37,8 +37,8 @@
 
 .container .input-field {
   position: relative;
-  width: 100%;
-  height: 20px;
+  width: 70vw;
+  height: 8vh;
   margin: 20px auto;
 }
 
@@ -49,7 +49,7 @@
   border: 1px solid #dddddd;
   outline: none;
   border-radius: 56px;
-  font-size: 12px;
+  font-size: 16px;
   padding: 20px 20px;
 }
 
@@ -61,7 +61,8 @@
   position: absolute;
   right: 20px;
   top: 50%;
-  transform: translateY(10%);
+  transform: translateY(-50%);
+  font-size: 24px;
 }
 
 .container .button {

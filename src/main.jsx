@@ -13,10 +13,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </React.StrictMode>,
 )
 
-/*/    <Router>
+/*/ <Router>
       <Routes>
-        <Route path="/" element={<welcome />} />     
+        <Route path="/" element={<telaInicio2 />} />     
         <Route path="/login" element={<Login />} />
       </Routes>
     </Router>
-    <Login /> /*/
+     <Login /> /*/
