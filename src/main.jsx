@@ -12,11 +12,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     
   </React.StrictMode>,
 )
-// Criando Branch
-/*/    <Router>
+
+/*/ <Router>
       <Routes>
-        <Route path="/" element={<welcome />} />     
+        <Route path="/" element={<telaInicio2 />} />     
         <Route path="/login" element={<Login />} />
       </Routes>
     </Router>
-    <Login /> /*/
+     <Login /> /*/
