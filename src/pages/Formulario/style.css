@@ -1,0 +1,80 @@
+.settings-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f8f3f0;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.settings-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6e2b5e;
+  color: white;
+  padding: 10px 20px;
+}
+
+.menu-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.settings-title {
+  color: #6e2b5e;
+  font-size: 22px;
+  margin: 20px 0;
+}
+
+.settings-list {
+  list-style: none;
+  padding: 0;
+}
+
+.settings-list li {
+  background: white;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 350px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.settings-list li .icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.settings-list li span {
+  flex-grow: 1;
+  font-weight: bold;
+  color: #6e2b5e;
+}
+
+.settings-list li p {
+  font-size: 12px;
+  color: #888;
+}
+
+.logout-button {
+  background-color: #6e2b5e;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
